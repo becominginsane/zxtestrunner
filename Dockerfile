@@ -11,7 +11,7 @@ RUN apt-get update && \
 #OPTEE qemu dependencies
 RUN apt-get install -yy python cpio android-tools-adb android-tools-fastboot autoconf \
         automake bc bison build-essential ccache cscope curl device-tree-compiler \
-        expect flex ftp-upload gdisk iasl libattr1-dev libcap-dev \
+        expect flex ftp-upload gdisk iasl libattr1-dev libcap-dev libcap-ng-dev \
         libfdt-dev libftdi-dev libglib2.0-dev libhidapi-dev libncurses5-dev \
         libpixman-1-dev libssl-dev libtool make \
         mtools netcat python-crypto python3-crypto python-pyelftools \
